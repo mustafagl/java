@@ -8,10 +8,10 @@ public static int[][] ev;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
   	  Random ra=new Random();
-    //ev1-> kira= 1000 metre=80 n¸fus=50 pahal˝
-  	//ev2-> kira= 1000 metre=200 n¸fus=50 uygun
-  	//ev3-> kira= 2000 metre=100 n¸fus=50 pahal˝
-// olmas˝ gereken 1 olan -1
+    //ev1-> kira= 1000 metre=80 n√ºfus=50 pahal√Ω
+  	//ev2-> kira= 1000 metre=200 n√ºfus=50 uygun
+  	//ev3-> kira= 2000 metre=100 n√ºfus=50 pahal√Ω
+// olmas√Ω gereken 1 olan -1
       ev= new int[15][5];
       w=new float[3];
 
@@ -128,12 +128,12 @@ testet();
 	
 
 	public static void testet() {
-	// test ev -> kira 50 -metre200- n¸fus100
+	// test ev -> kira 50 -metre200- n√ºfus100
 	float finaldeger=50*w[0]+200*w[1]+100*w[2];
 	if(finaldeger>0) {
 		System.out.println("EV UYGUN");
 	}
-	else {		System.out.println("EV UYGUN DE–›L");}
+	else {		System.out.println("EV UYGUN DE√ê√ùL");}
 		
 		
 	}
