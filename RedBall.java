@@ -15,7 +15,7 @@ import java.awt.Desktop.Action;
 
 public class RedBall extends JFrame  {
 public static int carx,ilerisensorx,sagsensorx,solsensorx,tespitedilenilerimesafe,tespitedilensagmesafe,tespitedilensolmesafe;
- public static int cary,ilerisensory,sagsensory,solsensory,soncary,reset,sýra=0,maxcary=500;
+ public static int cary,ilerisensory,sagsensory,solsensory,soncary,reset,sÄ±ra=0,maxcary=500;
  public static float[]  w;
  public static float toplamdeger,wb;
  
@@ -57,23 +57,23 @@ public static int carx,ilerisensorx,sagsensorx,solsensorx,tespitedilenilerimesaf
             	if(reset>100) {
             		if(cary<maxcary) {
                 		maxcary=cary;
-                		sýra=0;
+                		sÄ±ra=0;
                 	}
             		carx=250;
             				cary=440;
             				reset=0;
-            				 if(sýra%2 == 1){
-            					 w[0]+=tespitedilenilerimesafe*sýra/100+tespitedilenilerimesafe/100+wb/100*sýra;
-            					 w[1]+=tespitedilensagmesafe*sýra/100+tespitedilensagmesafe/100+wb/100*sýra;
-            					 w[2]+=tespitedilensolmesafe*sýra/100+tespitedilensolmesafe/100+wb/100*sýra;
+            				 if(sÄ±ra%2 == 1){
+            					 w[0]+=tespitedilenilerimesafe*sÄ±ra/100+tespitedilenilerimesafe/100+wb/100*sÄ±ra;
+            					 w[1]+=tespitedilensagmesafe*sÄ±ra/100+tespitedilensagmesafe/100+wb/100*sÄ±ra;
+            					 w[2]+=tespitedilensolmesafe*sÄ±ra/100+tespitedilensolmesafe/100+wb/100*sÄ±ra;
 
-            					 sýra++;
+            					 sÄ±ra++;
             			        }else{
-            			       	w[0]-=tespitedilenilerimesafe*sýra/100+tespitedilenilerimesafe/100+wb/100*sýra;
-            					 w[1]-=tespitedilensagmesafe*sýra/100+tespitedilensagmesafe/100+wb/100*sýra;
-            					 w[2]-=tespitedilensolmesafe*sýra/100+tespitedilensolmesafe/100+wb/100*sýra;
+            			       	w[0]-=tespitedilenilerimesafe*sÄ±ra/100+tespitedilenilerimesafe/100+wb/100*sÄ±ra;
+            					 w[1]-=tespitedilensagmesafe*sÄ±ra/100+tespitedilensagmesafe/100+wb/100*sÄ±ra;
+            					 w[2]-=tespitedilensolmesafe*sÄ±ra/100+tespitedilensolmesafe/100+wb/100*sÄ±ra;
 
-            			   		 sýra++;
+            			   		 sÄ±ra++;
             			        }
             				 
             	}
@@ -97,20 +97,20 @@ for(int i=1;i<101;i++) {
 		 
 		 if(cary<maxcary) {
      		maxcary=cary;
-     		sýra=0;
+     		sÄ±ra=0;
      	}
-		 if(sýra%2 == 1){
-			 w[0]+=tespitedilenilerimesafe*sýra/100+tespitedilenilerimesafe/100+wb/100*sýra;
-			 w[1]+=tespitedilensagmesafe*sýra/100+tespitedilensagmesafe/100+wb/100*sýra;
-			 w[2]+=tespitedilensolmesafe*sýra/100+tespitedilensolmesafe/100+wb/100*sýra;
+		 if(sÄ±ra%2 == 1){
+			 w[0]+=tespitedilenilerimesafe*sÄ±ra/100+tespitedilenilerimesafe/100+wb/100*sÄ±ra;
+			 w[1]+=tespitedilensagmesafe*sÄ±ra/100+tespitedilensagmesafe/100+wb/100*sÄ±ra;
+			 w[2]+=tespitedilensolmesafe*sÄ±ra/100+tespitedilensolmesafe/100+wb/100*sÄ±ra;
 
-			 sýra++;
+			 sÄ±ra++;
 	        }else{
-	       	w[0]-=tespitedilenilerimesafe*sýra/100+tespitedilenilerimesafe/100+wb/100*sýra;
-			 w[1]-=tespitedilensagmesafe*sýra/100+tespitedilensagmesafe/100+wb/100*sýra;
-			 w[2]-=tespitedilensolmesafe*sýra/100+tespitedilensolmesafe/100+wb/100*sýra;
+	       	w[0]-=tespitedilenilerimesafe*sÄ±ra/100+tespitedilenilerimesafe/100+wb/100*sÄ±ra;
+			 w[1]-=tespitedilensagmesafe*sÄ±ra/100+tespitedilensagmesafe/100+wb/100*sÄ±ra;
+			 w[2]-=tespitedilensolmesafe*sÄ±ra/100+tespitedilensolmesafe/100+wb/100*sÄ±ra;
 
-	   		 sýra++;
+	   		 sÄ±ra++;
 	        }
 		
 		 
@@ -121,20 +121,20 @@ for(int i=1;i<101;i++) {
 	  	   
 		 if(cary<maxcary) {
      		maxcary=cary;
-     		sýra=0;
+     		sÄ±ra=0;
      	}
-		 if(sýra%2 == 1){
-			 w[0]+=tespitedilenilerimesafe*sýra/100+tespitedilenilerimesafe/100+wb/100*sýra;
-			 w[1]+=tespitedilensagmesafe*sýra/100+tespitedilensagmesafe/100+wb/100*sýra;
-			 w[2]+=tespitedilensolmesafe*sýra/100+tespitedilensolmesafe/100+wb/100*sýra;
+		 if(sÄ±ra%2 == 1){
+			 w[0]+=tespitedilenilerimesafe*sÄ±ra/100+tespitedilenilerimesafe/100+wb/100*sÄ±ra;
+			 w[1]+=tespitedilensagmesafe*sÄ±ra/100+tespitedilensagmesafe/100+wb/100*sÄ±ra;
+			 w[2]+=tespitedilensolmesafe*sÄ±ra/100+tespitedilensolmesafe/100+wb/100*sÄ±ra;
 
-			 sýra++;
+			 sÄ±ra++;
 	        }else{
-	       	w[0]-=tespitedilenilerimesafe*sýra/100+tespitedilenilerimesafe/100+wb/100*sýra;
-			 w[1]-=tespitedilensagmesafe*sýra/100+tespitedilensagmesafe/100+wb/100*sýra;
-			 w[2]-=tespitedilensolmesafe*sýra/100+tespitedilensolmesafe/100+wb/100*sýra;
+	       	w[0]-=tespitedilenilerimesafe*sÄ±ra/100+tespitedilenilerimesafe/100+wb/100*sÄ±ra;
+			 w[1]-=tespitedilensagmesafe*sÄ±ra/100+tespitedilensagmesafe/100+wb/100*sÄ±ra;
+			 w[2]-=tespitedilensolmesafe*sÄ±ra/100+tespitedilensolmesafe/100+wb/100*sÄ±ra;
 
-	   		 sýra++;
+	   		 sÄ±ra++;
 	        }
 		 
 			carx=250;
@@ -144,20 +144,20 @@ for(int i=1;i<101;i++) {
 	 if(cary==400-i & carx==300-i) {
 		 if(cary<maxcary) {
      		maxcary=cary;
-     		sýra=0;
+     		sÄ±ra=0;
      	}
-		 if(sýra%2 == 1){
-			 w[0]+=tespitedilenilerimesafe*sýra/100+tespitedilenilerimesafe/100+wb/100*sýra;
-			 w[1]+=tespitedilensagmesafe*sýra/100+tespitedilensagmesafe/100+wb/100*sýra;
-			 w[2]+=tespitedilensolmesafe*sýra/100+tespitedilensolmesafe/100+wb/100*sýra;
+		 if(sÄ±ra%2 == 1){
+			 w[0]+=tespitedilenilerimesafe*sÄ±ra/100+tespitedilenilerimesafe/100+wb/100*sÄ±ra;
+			 w[1]+=tespitedilensagmesafe*sÄ±ra/100+tespitedilensagmesafe/100+wb/100*sÄ±ra;
+			 w[2]+=tespitedilensolmesafe*sÄ±ra/100+tespitedilensolmesafe/100+wb/100*sÄ±ra;
 
-			 sýra++;
+			 sÄ±ra++;
 	        }else{
-	       	w[0]-=tespitedilenilerimesafe*sýra/100+tespitedilenilerimesafe/100+wb/100*sýra;
-			 w[1]-=tespitedilensagmesafe*sýra/100+tespitedilensagmesafe/100+wb/100*sýra;
-			 w[2]-=tespitedilensolmesafe*sýra/100+tespitedilensolmesafe/100+wb/100*sýra;
+	       	w[0]-=tespitedilenilerimesafe*sÄ±ra/100+tespitedilenilerimesafe/100+wb/100*sÄ±ra;
+			 w[1]-=tespitedilensagmesafe*sÄ±ra/100+tespitedilensagmesafe/100+wb/100*sÄ±ra;
+			 w[2]-=tespitedilensolmesafe*sÄ±ra/100+tespitedilensolmesafe/100+wb/100*sÄ±ra;
 
-	   		 sýra++;
+	   		 sÄ±ra++;
 	        }
 		 
 		 
@@ -166,20 +166,20 @@ for(int i=1;i<101;i++) {
 	 if(cary==400-i & carx==200-i) {
 		 if(cary<maxcary) {
      		maxcary=cary;
-     		sýra=0;
+     		sÄ±ra=0;
      	}
-		 if(sýra%2 == 1){
-			 w[0]+=tespitedilenilerimesafe*sýra/100+tespitedilenilerimesafe/100+wb/100*sýra;
-			 w[1]+=tespitedilensagmesafe*sýra/100+tespitedilensagmesafe/100+wb/100*sýra;
-			 w[2]+=tespitedilensolmesafe*sýra/100+tespitedilensolmesafe/100+wb/100*sýra;
+		 if(sÄ±ra%2 == 1){
+			 w[0]+=tespitedilenilerimesafe*sÄ±ra/100+tespitedilenilerimesafe/100+wb/100*sÄ±ra;
+			 w[1]+=tespitedilensagmesafe*sÄ±ra/100+tespitedilensagmesafe/100+wb/100*sÄ±ra;
+			 w[2]+=tespitedilensolmesafe*sÄ±ra/100+tespitedilensolmesafe/100+wb/100*sÄ±ra;
 
-			 sýra++;
+			 sÄ±ra++;
 	        }else{
-	       	w[0]-=tespitedilenilerimesafe*sýra/100+tespitedilenilerimesafe/100+wb/100*sýra;
-			 w[1]-=tespitedilensagmesafe*sýra/100+tespitedilensagmesafe/100+wb/100*sýra;
-			 w[2]-=tespitedilensolmesafe*sýra/100+tespitedilensolmesafe/100+wb/100*sýra;
+	       	w[0]-=tespitedilenilerimesafe*sÄ±ra/100+tespitedilenilerimesafe/100+wb/100*sÄ±ra;
+			 w[1]-=tespitedilensagmesafe*sÄ±ra/100+tespitedilensagmesafe/100+wb/100*sÄ±ra;
+			 w[2]-=tespitedilensolmesafe*sÄ±ra/100+tespitedilensolmesafe/100+wb/100*sÄ±ra;
 
-	   		 sýra++;
+	   		 sÄ±ra++;
 	        }
 		 
 		 
@@ -188,40 +188,40 @@ for(int i=1;i<101;i++) {
 	 if(cary==300-i & carx==100+i) {
 		 if(cary<maxcary) {
      		maxcary=cary;
-     		sýra=0;
+     		sÄ±ra=0;
      	}
-		 if(sýra%2 == 1){
-			 w[0]+=tespitedilenilerimesafe*sýra/100+tespitedilenilerimesafe/100+wb/100*sýra;
-			 w[1]+=tespitedilensagmesafe*sýra/100+tespitedilensagmesafe/100+wb/100*sýra;
-			 w[2]+=tespitedilensolmesafe*sýra/100+tespitedilensolmesafe/100+wb/100*sýra;
+		 if(sÄ±ra%2 == 1){
+			 w[0]+=tespitedilenilerimesafe*sÄ±ra/100+tespitedilenilerimesafe/100+wb/100*sÄ±ra;
+			 w[1]+=tespitedilensagmesafe*sÄ±ra/100+tespitedilensagmesafe/100+wb/100*sÄ±ra;
+			 w[2]+=tespitedilensolmesafe*sÄ±ra/100+tespitedilensolmesafe/100+wb/100*sÄ±ra;
 
-			 sýra++;
+			 sÄ±ra++;
 	        }else{
-	       	w[0]-=tespitedilenilerimesafe*sýra/100+tespitedilenilerimesafe/100+wb/100*sýra;
-			 w[1]-=tespitedilensagmesafe*sýra/100+tespitedilensagmesafe/100+wb/100*sýra;
-			 w[2]-=tespitedilensolmesafe*sýra/100+tespitedilensolmesafe/100+wb/100*sýra;
+	       	w[0]-=tespitedilenilerimesafe*sÄ±ra/100+tespitedilenilerimesafe/100+wb/100*sÄ±ra;
+			 w[1]-=tespitedilensagmesafe*sÄ±ra/100+tespitedilensagmesafe/100+wb/100*sÄ±ra;
+			 w[2]-=tespitedilensolmesafe*sÄ±ra/100+tespitedilensolmesafe/100+wb/100*sÄ±ra;
 
-	   		 sýra++;
+	   		 sÄ±ra++;
 	        }
 			carx=250;
 	    	cary=440;	     }
 	 if(cary==300-i & carx==200+i) {
 		 if(cary<maxcary) {
      		maxcary=cary;
-     		sýra=0;
+     		sÄ±ra=0;
      	}
-		 if(sýra%2 == 1){
-			 w[0]+=tespitedilenilerimesafe*sýra/100+tespitedilenilerimesafe/100+wb/100*sýra;
-			 w[1]+=tespitedilensagmesafe*sýra/100+tespitedilensagmesafe/100+wb/100*sýra;
-			 w[2]+=tespitedilensolmesafe*sýra/100+tespitedilensolmesafe/100+wb/100*sýra;
+		 if(sÄ±ra%2 == 1){
+			 w[0]+=tespitedilenilerimesafe*sÄ±ra/100+tespitedilenilerimesafe/100+wb/100*sÄ±ra;
+			 w[1]+=tespitedilensagmesafe*sÄ±ra/100+tespitedilensagmesafe/100+wb/100*sÄ±ra;
+			 w[2]+=tespitedilensolmesafe*sÄ±ra/100+tespitedilensolmesafe/100+wb/100*sÄ±ra;
 
-			 sýra++;
+			 sÄ±ra++;
 	        }else{
-	       	w[0]-=tespitedilenilerimesafe*sýra/100+tespitedilenilerimesafe/100+wb/100*sýra;
-			 w[1]-=tespitedilensagmesafe*sýra/100+tespitedilensagmesafe/100+wb/100*sýra;
-			 w[2]-=tespitedilensolmesafe*sýra/100+tespitedilensolmesafe/100+wb/100*sýra;
+	       	w[0]-=tespitedilenilerimesafe*sÄ±ra/100+tespitedilenilerimesafe/100+wb/100*sÄ±ra;
+			 w[1]-=tespitedilensagmesafe*sÄ±ra/100+tespitedilensagmesafe/100+wb/100*sÄ±ra;
+			 w[2]-=tespitedilensolmesafe*sÄ±ra/100+tespitedilensolmesafe/100+wb/100*sÄ±ra;
 
-	   		 sýra++;
+	   		 sÄ±ra++;
 	        }
 		 
 			carx=250;
@@ -229,20 +229,20 @@ for(int i=1;i<101;i++) {
 	 if(cary==200-i & carx==200) {
 		 if(cary<maxcary) {
      		maxcary=cary;
-     		sýra=0;
+     		sÄ±ra=0;
      	}
-		 if(sýra%2 == 1){
-			 w[0]+=tespitedilenilerimesafe*sýra/100+tespitedilenilerimesafe/100+wb/100*sýra;
-			 w[1]+=tespitedilensagmesafe*sýra/100+tespitedilensagmesafe/100+wb/100*sýra;
-			 w[2]+=tespitedilensolmesafe*sýra/100+tespitedilensolmesafe/100+wb/100*sýra;
+		 if(sÄ±ra%2 == 1){
+			 w[0]+=tespitedilenilerimesafe*sÄ±ra/100+tespitedilenilerimesafe/100+wb/100*sÄ±ra;
+			 w[1]+=tespitedilensagmesafe*sÄ±ra/100+tespitedilensagmesafe/100+wb/100*sÄ±ra;
+			 w[2]+=tespitedilensolmesafe*sÄ±ra/100+tespitedilensolmesafe/100+wb/100*sÄ±ra;
 
-			 sýra++;
+			 sÄ±ra++;
 	        }else{
-	       	w[0]-=tespitedilenilerimesafe*sýra/100+tespitedilenilerimesafe/100+wb/100*sýra;
-			 w[1]-=tespitedilensagmesafe*sýra/100+tespitedilensagmesafe/100+wb/100*sýra;
-			 w[2]-=tespitedilensolmesafe*sýra/100+tespitedilensolmesafe/100+wb/100*sýra;
+	       	w[0]-=tespitedilenilerimesafe*sÄ±ra/100+tespitedilenilerimesafe/100+wb/100*sÄ±ra;
+			 w[1]-=tespitedilensagmesafe*sÄ±ra/100+tespitedilensagmesafe/100+wb/100*sÄ±ra;
+			 w[2]-=tespitedilensolmesafe*sÄ±ra/100+tespitedilensolmesafe/100+wb/100*sÄ±ra;
 
-	   		 sýra++;
+	   		 sÄ±ra++;
 	        }
 		 
 			carx=250;
@@ -251,21 +251,21 @@ for(int i=1;i<101;i++) {
 	  	   
 		 if(cary<maxcary) {
      		maxcary=cary;
-     		sýra=0;
+     		sÄ±ra=0;
      	}
 		 
-		 if(sýra%2 == 1){
-			 w[0]+=tespitedilenilerimesafe*sýra/100+tespitedilenilerimesafe/100+wb/100*sýra;
-			 w[1]+=tespitedilensagmesafe*sýra/100+tespitedilensagmesafe/100+wb/100*sýra;
-			 w[2]+=tespitedilensolmesafe*sýra/100+tespitedilensolmesafe/100+wb/100*sýra;
+		 if(sÄ±ra%2 == 1){
+			 w[0]+=tespitedilenilerimesafe*sÄ±ra/100+tespitedilenilerimesafe/100+wb/100*sÄ±ra;
+			 w[1]+=tespitedilensagmesafe*sÄ±ra/100+tespitedilensagmesafe/100+wb/100*sÄ±ra;
+			 w[2]+=tespitedilensolmesafe*sÄ±ra/100+tespitedilensolmesafe/100+wb/100*sÄ±ra;
 
-			 sýra++;
+			 sÄ±ra++;
 	        }else{
-	       	w[0]-=tespitedilenilerimesafe*sýra/100+tespitedilenilerimesafe/100+wb/100*sýra;
-			 w[1]-=tespitedilensagmesafe*sýra/100+tespitedilensagmesafe/100+wb/100*sýra;
-			 w[2]-=tespitedilensolmesafe*sýra/100+tespitedilensolmesafe/100+wb/100*sýra;
+	       	w[0]-=tespitedilenilerimesafe*sÄ±ra/100+tespitedilenilerimesafe/100+wb/100*sÄ±ra;
+			 w[1]-=tespitedilensagmesafe*sÄ±ra/100+tespitedilensagmesafe/100+wb/100*sÄ±ra;
+			 w[2]-=tespitedilensolmesafe*sÄ±ra/100+tespitedilensolmesafe/100+wb/100*sÄ±ra;
 
-	   		 sýra++;
+	   		 sÄ±ra++;
 	        }
 		 
 		 
@@ -466,7 +466,7 @@ for(int i=1;i<101;i++) {
     	 
     	 
     	 
-    	 System.out.println(tespitedilenilerimesafe+"  "+tespitedilensagmesafe+"  "+tespitedilensolmesafe+"  "+w[0]+"  "+w[1]+"  "+w[2]+"  "+toplamdeger+"  "+sýra);
+    	 System.out.println(tespitedilenilerimesafe+"  "+tespitedilensagmesafe+"  "+tespitedilensolmesafe+"  "+w[0]+"  "+w[1]+"  "+w[2]+"  "+toplamdeger+"  "+sÄ±ra);
     	 
     	 
     }
